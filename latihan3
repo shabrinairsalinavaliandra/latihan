@@ -2,295 +2,375 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Latihan 4</title>
-	<link rel="shortcut icon"; type="images/x-icon" href="/latihan4/images/favicon.ico">
+	<link rel="shortcut icon"; type="images/x-icon" href="/latihan3/images/favicon.ico">
 </head>
 <body>
 <style>
 body	{
-	background-image: url("https://goletskerja.com/wp-content/uploads/2023/04/LAWSONN.png");
+	background-image: url(https://th.bing.com/th/id/OIP.n1fF3tej9Ux-UGtqgaiiGwHaFj?rs=1&pid=ImgDetMain);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	font-family: arial;
+	margin: 0px;
+	padding: 0;
+	color: whitesmoke;
+	font-weight: bold;
+}
+header {
+	background-color: darkblue;
+	padding: 15px;
+	margin: 0px;
+	color: white;
+	text-align: center;
+}
+
+
+h3 {
+	background-color: pink;
+	color: darkblue;
+	padding: 15px;
+	font-family: sans-serif;
+	font-size: 18px;
+}
 
 table, th, td {
-	border: 1px solid black;
+	color: darkblue;
+	background-color: #BC7C7C;
+	font-size: 15px;
 	border-collapse: collapse;
-	align: center;
-	background-color: orange;
+	border-color: black;
+	border: 1px solid black;
+	cellpadding: 7px; 
+	cellspacing: 5px;
 }
-th,td {
-	padding-left: 30px;
-	padding-right: 30px;
-	font-size: 18px;
-}
+
 th {
-	text-align: center;
+	color: darkblue;
 }
 
-.header {
-	text-align: left;
-	padding: 10px;
-	font-weight: bold;
-	font-size: 18px;
+td {
+	color: darkblue;
+	background-color: lightpink;
 }
-
-.container {
-	text-align: center;
-	padding: 20px;
-}
-
-h1 {
-	font-size: 24px;
-	margin-top: 20px;
-}
-
-.menu-section {
-	background-color: transparent;
-	padding: 20px;
-	margin-top: 20px;
-	border: 2 px solid black;
-	display: inline-block;
-}
-
-.menu-section h2 {
-	margin-bottom: 10px;
-}
-
-.menu-section ul {
-	list-style: none;
-	padding: 0;
-}
-
-.menu-section ul li {
-	margin: 8 px 0;
-	font-size: 16 px;
-}
-
-.description {
-    margin-top: 20px;
-    font-size: 14px;
-    text-align: center;
-}
-
-.description a {
-    color: blue;
-    text-decoration: underline;
-}
-
 .about {
-    margin-top: 20px;
-    font-size: 14px;
-    text-align: justify;
-    padding: 0 20px;
+	background-color: transparent;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: justify;
 }
 
-.nav {
-            text-align: right;
-            padding: 20px;
-            margin-top: 10px;
-        }
+.minuman {
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: sans-serif;
+	font-size: 15px;
 
-        .nav a {
-            color: #9b59b6;
-            text-decoration: none;
-            margin-right: 10px;
-        }
+}
 
-        .nav a:hover {
-            text-decoration: underline;
-        }
-</style>
+.makanan {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
 
-<div class="header">
-	LAWSON
-</div>
-<div class="nav">
-	<a href="#">TENTANG</a>
-    <a href="#">MEMBERSHIP</a>
-</div>
+.rekomendasi {
+  background-color: transparent;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+}
 
-<div class="container">
-	<h1 style="text-align: center; background-color: white; color: darkblue; padding-top: 15px; padding-bottom: 15px;">LAWSON</h1>
-	<h4 style="text-align: center; font-style: italic; color: white;">Welcome to Lawson!</h4>
-<hr><br>
-<div class="menu-section">
-<h3 style="text-align: center; color: white;">Kenalan Sama Lawson Yuk!</h3><center>
-<img src="/latihan4/images/lawsonjkt.webp" alt="lawsonjkt" width="500px" height="350px" align="center"></center>
-<a href="https://lawson-indonesia.com/index"><p align="center">klik di sini</p></a>
-<p style="text-align: justify; color: whitesmoke; font-family: calibri; font-size: 17px;"><span style="color:pink;font-weight:bold;">
-<ul>
-	<li>a</li>
-	<li>a</li>
-	<li>a</li>
-	<li>a</li>
-	<li>a</li>
-</ul>
-</div>
+.video {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: sans-serif;
+	background-color: pink;
+	color: darkblue;
 
-<div class="description">
-	LAWSON ADALAH SEBUAH MINIMARKET YANG BANYAK DIMINATI DI INDONESIA
-	<br><br>
-	<a href="https://lawson-indonesia.com/index">kunjungi website Lawson: klik link</a>
-</div>
+}
 
+.komentar {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.toko {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.lokasi {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+footer {
+	background-color: darkblue;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: times new roman;
+}
+nav {
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #eaeaea;
+}
+nav a {
+    color: grey;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: grey;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>LAWSON</h1>
+    <h4 style="font-style: italic;">Welcome to Lawson!</h4>
+</header><br>
+<p class="nav" style="text-align: right; color: white; padding-right: 20px;">
+	<a href="#A">TENTANG</a>
+    <a href="#B">MINUMAN</a>
+    <a href="#C">MAKANAN</a>
+    <a href="#D">REKOMENDASI</a>
+    <a href="#E">TOKO</a>
+</p>
+<br>
+</body>
+</html>
+<hr>
+<br>
 <div class="about">
-	<h3>Tentang Lawson Indonesia</h3>
-	<p>
-		Lawson hadir 
-	</p>
+<h3 id="A" class="h3">Tentang Lawson</h3>
+<center><img src="/latihan3/images/lawsonjkt.webp" alt="lawsonjkt" style="width: 500px; height: 350px;"></center>
+<p style="text-align: center;"> Kunjungi website resmi Lawson <a href="https://lawson-indonesia.com/index">klik link ini</p></a>
+	<p><span style="color:darkblue; font-weight: bold;">Lawson</span> merupakan salah satu industri ritel terkenal di dunia. Pada mulanya, gerai tersebut hadir tidak sebagai convenience store melainkan toko susu. Toko tersebut kemudian berkembang hingga memiliki beberapa cabang di Amerika Serikat. Jika Anda bertanya asal mula nama Lawson, itu karena pendirinya bernama J. J. Lawson. Meskipun sempat mengalami pasang surut, Lawson bangkit dengan bergantinya kepemilikan. Dairi Mart adalah pemilik baru dari gerai tersebut yang berasal dari Jepang. Oleh karena itu, gerai ritel ini hadir di Jepang pada 1975. Perusahaan tersebut pun berganti nama menjadi Daiei Lawson Co., Ltd. Daiei Lawson menjadi Lawson pada 1997 dengan membuka gerai pertamanya di Okinawa, Jepang. Lambat laun, namanya makin dikenal. Di Jepang, gerai ritel tersebut merupakan yang terbesar kedua setelah 7-Eleven. Pada 1997 pula, gerainya diminati oleh publik Jepang hingga membuka lebih dari 40 gerai.</p>
+	<p>	Berbekal kesuksesan di Jepang, gerai ritel nomor dua setelah 7-Eleven mulai merambah luar Jepang. Ada beberapa negara yang diincarnya yaitu Tiongkok, Korea Selatan, Filipina, Thailand, dan Indonesia. Di Tiongkok, saat ini lebih dari 1000 gerai ritel. Itu tersebar di berbagai kota. Namun, kebanyakan tokonya berada di Beijing, Wuhan, Dalian, dan Shanghai. Untuk kota terakhir adalah pusatnya. Di sana terdapat 800 gerai ritel. Baik Thailand maupun Filipina, gerai tersebut hadir melalui bentuk kerja sama. Jika di Thailand bekerja sama dengan Thailand Saha Group, di Filipina berkompromi dengan Lawson Asia Pasific dan Puregold Price Club. </p>
+	<p>Lawson hadir di Indonesia pada 2011. Saat itu, perseroan yang menaungi Alfamart melakukan kerja sama dengan Lawson, perusahaan asal Jepang. Kerja sama tersebut memperbolehkan gerai yang identik warna biru hadir di Indonesia selama 25 tahun. Bahkan, kerja sama tersebut dapat diperpanjang asalkan disetujui oleh kedua belah pihak. Gerai ini menyediakan produk yang berbeda baik dari Alfamart, Alfamidi, maupun Alfaexpress. Gerai ini menghadirkan minuman dan makanan siap saji khas Jepang. Seperti, onigiri, nasi bento, teh ocha, es krim, kopi, dan lain sebagainya. Namun, produk orisinal dari gerai ini adalah oden dan bento. </p><br><br>
 </div>
-
-<div class="about">
-<br>Lawson merupakan salah satu industri ritel terkenal di dunia. Pada mulanya, gerai tersebut hadir tidak sebagai convenience store melainkan toko susu. Toko tersebut kemudian berkembang hingga memiliki beberapa cabang di Amerika Serikat. Jika Anda bertanya asal mula nama Lawson, itu karena pendirinya bernama J. J. Lawson. Meskipun sempat mengalami pasang surut, Lawson bangkit dengan bergantinya kepemilikan. Dairi Mart adalah pemilik baru dari gerai tersebut yang berasal dari Jepang. Oleh karena itu, gerai ritel ini hadir di Jepang pada 1975. Perusahaan tersebut pun berganti nama menjadi Daiei Lawson Co., Ltd. Daiei Lawson menjadi Lawson pada 1997 dengan membuka gerai pertamanya di Okinawa, Jepang. Lambat laun, namanya makin dikenal. Di Jepang, gerai ritel tersebut merupakan yang terbesar kedua setelah 7-Eleven. Pada 1997 pula, gerainya diminati oleh publik Jepang hingga membuka lebih dari 40 gerai.<br><br>
-<span style="color:yellow;font-weight:bold;">Berbekal kesuksesan di Jepang, gerai ritel nomor dua setelah 7-Eleven mulai merambah luar Jepang. Ada beberapa negara yang diincarnya yaitu Tiongkok, Korea Selatan, Filipina, Thailand, dan Indonesia. Di Tiongkok, saat ini lebih dari 1000 gerai ritel. Itu tersebar di berbagai kota. Namun, kebanyakan tokonya berada di Beijing, Wuhan, Dalian, dan Shanghai. Untuk kota terakhir adalah pusatnya. Di sana terdapat 800 gerai ritel. Baik Thailand maupun Filipina, gerai tersebut hadir melalui bentuk kerja sama. Jika di Thailand bekerja sama dengan Thailand Saha Group, di Filipina berkompromi dengan Lawson Asia Pasific dan Puregold Price Club. <br><br>
-<span style="color:orange;font-weight:bold;">Lawson hadir di Indonesia pada 2011. Saat itu, perseroan yang menaungi Alfamart melakukan kerja sama dengan Lawson, perusahaan asal Jepang. Kerja sama tersebut memperbolehkan gerai yang identik warna biru hadir di Indonesia selama 25 tahun. Bahkan, kerja sama tersebut dapat diperpanjang asalkan disetujui oleh kedua belah pihak. Gerai ini menyediakan produk yang berbeda baik dari Alfamart, Alfamidi, maupun Alfaexpress. Gerai ini menghadirkan minuman dan makanan siap saji khas Jepang. Seperti, onigiri, nasi bento, teh ocha, es krim, kopi, dan lain sebagainya. Namun, produk orisinal dari gerai ini adalah oden dan bento. <br><br></p><br>
-</div><br>
-
-<div class="p">
-<h2 style="text-align:center; background-color: white; color: black;">Daftar Menu Makanan</h2>
-<p margin="30px">Lawson tidak hanya menyediakan makanan ringan dan minuman kemasan, tetapi juga beberapa menu kopi dan sarapan yang bisa Toppers coba saat mampir ke Lawson. Mulai dari odeng, tteokbokki, hingga rice bowl, yuk simak daftar menu Lawson selengkapnya!<br></p></div>
-<table align="center">
+<div class="minuman">
+<h3 id="B" class="h3">Daftar Menu Minuman</h3>
+<p>Lawson menyediakan minuman kemasan, yang bisa kamu coba saat mampir ke Lawson. Mulai dari air mineral, kopi, teh dan lainnya. Yuk simak daftar menu Lawson selengkapnya.</p>
+<center><table cellpadding="10px" cellspacing="5px">
 <tr>
-	<th>No</th>
+	<th colspan="3">Menu Minuman</th>
+</tr>
+<tr>
 	<th>Nama</th>
 	<th>Harga</th>
 </tr>
 <tr>
-	<td align="center">1</td>
+	<td>Le Minerale Air Mineral 1500 ml</td>
+	<td>Rp 7.000</td>
+</tr>
+<tr>
+	<td>Le Minerale Air Mineral 600 ml</td>
+	<td>Rp 24.000</td>
+</tr>
+<tr>
+	<td>Hydro Coco Original 250 ml</td>
+	<td>Rp 8.500</td>
+</tr>
+<tr>
+	<td>Pucuk Harum Teh 350 ml</td>
+	<td>Rp 4.500</td>
+</tr>
+<tr>
+	<td>Sosro Teh Botol Ori</td>
+	<td>Rp 7.500</td>
+</tr>
+<tr>
+	<td>Good Day 3-in-1 Cappucino</td>
+	<td>Rp 13.000</td>
+</tr>
+<tr>
+	<td>Ultra Milk UHT Coklat</td>
+	<td>Rp 7.000</td>
+</tr>
+<tr>
+	<td>Ultra Milk UHT Full Cream</td>
+	<td>Rp 7.500</td>
+</tr>
+<tr>
+	<td>Ultra UHT Stroberi</td>
+	<td>Rp 7.500</td>
+</tr>
+<tr>
+	<td>Pocari Sweet 500 ml</td>
+	<td>Rp 9.500</td>
+</tr>
+<tr>
+	<td>YOU C1000 Orange Water 500 ml</td>
+	<td>Rp 9.500</td>
+</tr>
+</table><br><br>
+</div>
+</center>
+<div class="makanan">
+<h3 id="C" class="h3">Daftar Menu Makanan</h3>
+<p>Lawson tidak hanya menyediakan makanan ringan dan minuman kemasan, tetapi juga beberapa menu kopi dan sarapan yang bisa kamu coba saat mampir ke Lawson. Mulai dari odeng, tteokbokki, hingga rice bowl, yuk simak daftar menu Lawson selengkapnya.</p>
+<center><table border="1px solid black" cellpadding="7px" cellspacing="5px" bgcolor="pink">
+<tr>
+	<th colspan="4">Menu Makanan</th>
+</tr>
+<tr>
+	<th>Nama</th>
+	<th>Harga</th>
+</tr>
+<tr>
 	<td>Odeng</td>
+	<td>Rp 14.000</td>
+</tr>
+<tr>
+	<td>Udon</td>
 	<td>Rp 12.000</td>
 </tr>
 <tr>
-	<td align="center">2</td>
 	<td>Ttekbokki</td>
-	<td>Rp 15.000</td>
+	<td>Rp 30.000</td>
 </tr>
 <tr>
-	<td align="center">3</td>
-	<td>Ttekbokki</td>
-	<td>Rp 15.000</td>
+	<td>Tahu Bakso Ikan</td>
+	<td>Rp 5.500</td>
 </tr>
 <tr>
-	<td align="center">4</td>
-	<td>Ttekbokki</td>
-	<td>Rp 15.000</td>
+	<td>Cheese Dumpling</td>
+	<td>Rp 9.000</td>
 </tr>
 <tr>
-	<td align="center">5</td>
-	<td>Ttekbokki</td>
-	<td>Rp 15.000</td>
+	<td>Shrimp Ball</td>
+	<td>Rp 8000</td>
 </tr>
 <tr>
-	<td align="center">6</td>
-	<td>Ttekbokki</td>
-	<td>Rp 15.000</td>
+	<td>Sausage Roll</td>
+	<td>Rp 9.000</td>
 </tr>
 <tr>
-	<td align="center">7</td>
-	<td>Ttekbokki</td>
-	<td>Rp 15.000</td>
+	<td>Lobster Ball</td>
+	<td>Rp 5.500</td>
 </tr>
 <tr>
-	<td align="center">8</td>
-	<td>Ttekbokki</td>
-	<td>Rp 15.000</td>
+	<td>Siomay Rolled</td>
+	<td>Rp 8.000</td>
 </tr>
-</table>
-
-<center>
-<br>
-<p style="border: 1px solid black; font-size: 25px; background-color: white; color: black;" >Hello World</p>
-<div style="border: 1px solid black; font-size: 25px">Hello World</div>
-<br>
-<div class="p">
-<h2 style="text-align: center; background-color: white; color: black;">Rekomendasi Menu Lawson Terfavorit</h2>
-<p style="text-align: justify; color: white; font-size: 18px; margin: 30px;">Setelah mengetahui daftar menu Lawson beserta harganya, Toppers juga perlu mengetahui rekomendasi menu Lawson paling enak yang wajib dicoba. Di antara menu-menu Lawson tersebut, ada menu yang selalu jadi langganan semua pengunjung Lawson, lho. Yuk simak menu terfavorit Lawson!
-<ol style="text-align: justify; color: white; font-size: 18px; margin: 30px">
-	<li>Odeng</li><br>
-	<img src="/latihan4/images/odeng.jpg" width="500px" height="350px">
-	<p><span style="color:pink;font-weight:bold;">Menu paling enak pertama yang sering jadi langganan di Lawson adalah odeng! Menu ini adalah menu khas Korea yang juga dikenal sebagai fish cake. Menu odeng memiliki ukuran panjang dengan ditusuk menggunakan tusuk sate. Odeng memiliki tekstur yang empuk dengan rasa yang gurih. Untuk melengkapi rasa odeng, Lawson juga menyediakan kuah odeng yang varian rasanya bisa dipilih, seperti kuah original dan kuah pedas. Seringkali odeng ditemani dengan menu-menu lain dari daftar menu Oden, seperti varian menu bakso dan sosis. Kamu juga bisa menambahkan odeng ke menu mie seduh.</p></span>
-	<li>Tteokbokki</li><br>
-	<img src="/latihan4/images/tteokpokki.jpg" width="500px" height="350px">
-	<p><span style="color:yellow;font-weight:bold;">Menu terfavorit selanjutnya di Lawson adalah tteokbokki. Memiliki cita rasa pedas yang khas, tteokbokki khas Lawson dijamin memanjakan lidah siapapun yang mencicipinya. Tekstur kue beras yang kenyal membuatnya tidak sulit untuk dimakan. Toppers bisa menambahkan item menu lainnya ke dalam tteokbokki, seperti odeng, bakso, dan sosis, sesuai keinginan kamu. Tteokbokki Lawson tersedia dalam beberapa versi, seperti tteokbokki original, cheesebokki yang memakai bahan tambahan keju, serta rabokki yang memadukan tteokbokki dengan mie ramen.</p></span>
-	<li>Udon</li><br>
-	<img src="/latihan4/images/udon.jpg" width="500px" height="350px">
-	<p><span style="color:orange;font-weight:bold;">Sebagai minimarket khas Jepang, Lawson juga tidak ketinggalan soal makanan khas Jepangnya. Udon menjadi salah satu menu favorit di Lawson. Mie udon yang lembut ditambah kuah kaldu yang gurih dan panas dapat menjadi solusi pengganjal perut dan pemuas lidah. Kamu bisa menambahkan menu-menu lainnya untuk menambah cita rasa pada menu Udon, seperti odeng, bakso, sosis, dan lainnya.</p></span>
+<tr>
+	<td>Onigiri Salmon Kirimi</td>
+	<td>Rp 21.000</td>
+</tr>
+<tr>
+	<td>Onigiri Spicy Chicken Mayo</td>
+	<td>Rp 21.000</td>
+</tr>
+<tr>
+	<td>Takoyaki</td>
+	<td>Rp 18.000</td>
+</tr>
+<tr>
+	<td>Katsu Egg Sandwich</td>
+	<td>Rp 24.000</td>
+</tr>
+<tr>
+	<td>Creamy Choco Pudding</td>
+	<td>Rp 18.000</td>
+</tr>
+</table></center><br>
+<br><br>
+</div>
+<div class="rekomendasi">
+<h3 id="D" class="h3">Rekomendasi Menu Lawson yang Wajib Dicoba!</h3>
+<p>Setelah mengetahui daftar menu Lawson beserta harganya, kalian juga perlu mengetahui rekomendasi menu Lawson paling enak yang wajib dicoba. Menu ini yang selalu jadi langganan semua pengunjung Lawson, lho. Yuk simak menu terfavorit Lawson!</p>
+<ol>
+	<span style="color: yellow;"><li>Odeng</li></span><br>
+	<img src="/latihan3/images/odeng.jpg" width="350px" height="250px"><br>
+	<p>Menu paling enak pertama yang sering jadi langganan di Lawson adalah odeng! <span style="color: yellow;">Menu ini adalah menu khas Korea yang juga dikenal sebagai fish cake.</span> Menu odeng memiliki ukuran panjang dengan ditusuk menggunakan tusuk sate. Odeng memiliki tekstur yang empuk dengan rasa yang gurih. Untuk melengkapi rasa odeng, Lawson juga menyediakan kuah odeng yang varian rasanya bisa dipilih, seperti kuah original dan kuah pedas. Seringkali odeng ditemani dengan menu-menu lain dari daftar menu Oden, seperti varian menu bakso dan sosis. Kamu juga bisa menambahkan odeng ke menu mie seduh.</p><br>
+	<span style="color: yellow;"><li>Tteokbokki</li></span><br>
+	<img src="/latihan3/images/tteokpokki.jpg" width="350px" height="250px">
+	<p>Menu selanjutnya di Lawson adalah tteokbokki. Memiliki cita rasa pedas yang khas, tteokbokki khas Lawson dijamin memanjakan lidah siapapun yang mencicipinya. Tekstur kue beras yang kenyal membuatnya tidak sulit untuk dimakan. Kalian bisa menambahkan item menu lainnya ke dalam tteokbokki, seperti odeng, bakso, dan sosis, sesuai keinginan kamu. Tteokbokki Lawson tersedia dalam beberapa versi, seperti tteokbokki original, cheesebokki yang memakai bahan tambahan keju, serta rabokki yang memadukan tteokbokki dengan mie ramen.</p><br>
+	<span style="color: yellow;"><li>Udon</li></span><br>
+	<img src="/latihan3/images/udon.jpg" width="350px" height="250px"><br>
+	<p>Sebagai minimarket khas Jepang, Lawson juga tidak ketinggalan soal makanan khas Jepangnya. Udon menjadi salah satu menu favorit di Lawson. Mie udon yang lembut ditambah kuah kaldu yang gurih dan panas dapat menjadi solusi pengganjal perut dan pemuas lidah. Kamu bisa menambahkan menu-menu lainnya untuk menambah cita rasa pada menu Udon, seperti odeng, bakso, sosis, dan lainnya.</p><br>
 </ol>
-</p>
+</div>
+<div class="toko">
+<h3 id="E" class="h3">Cabang Toko Lawson</h3>
+<p>Lawson sudah membuka tokonya di berbagai daerah, jadi ngga perlu khawatir bakalan ngga bisa mampir. Catet yuk alamatnya!</p>
+Ciputat:
+	<ul>
+		<li>UIN Kertamukti: Jl. Kertamukti RT. 003 RW. 008, Kec. Ciputat Timur, Kel. Pisangan, Kota Tangerang Selatan, 15419</li>
+		<li>WR. Supratman: Jl. WR. Supratman 005/002, Rengas-Ciputat Timur, Tangerang, 15412</li>
+	</ul>
+Jakarta Selatan:
+	<ul type="circle">
+		<li>Raya Cipete: Jl. Raya Cipete No. 67 RT. 006/04, Kec, Cilandak, Kel. Cipete Selatan, Kota Jakarta Selatan, 12410</li>
+		<li>Kemang Raya: Jl. Kemang Raya No. 6 RT.011 RW.001, Kec. Mampang Prapatan, Kel. Bangka, Kota Jakarta Selatan, 12730</li>
+	</ul>	
+Jakarta Utara:
+	<ul type="square">
+		<li>CBD Pluit: Ruko CBD Pluit, Perkantoran CBD Pluit A-12, Kec. Penjaringan, Kel. Penjaringan, Kota Jakarta Utara, 14440</li>
+		<li>Mangga Dua Square: Mangga Dua Square Lt. GF Blok C No. 2, Kec. Pademangan, Kel. Ancol, Kota Jakarta Utara, 14430</li>
+	</ul>
+</div>
+<br><center>
+<div class="video">
+<h2>Video Profil Lawson</h2>
+<video width="500" height="240" controls>
+	<source src="/latihan3/videos/profile.mp4" alt="profil" type="video/mp4">
+</video>
 </div>
 <br><br>
+<audio controls loop>
+	<source src="/latihan3/Audio/lofi.mp3" type="audio/mpeg">
+</audio>
 <br><br>
-<h2><mark>Video Profil Lawson</mark></h2>
-<video width="500" height="240" controls>
-	<source src="/latihan4/videos/profile.mp4" alt="profil" type="video/mp4">
-</video></center>
- 
-<h2>Daftarkan dirimu, sekarang!</h2>
-<form action="/action_page.php" style="align: justify">
+</center>
+<div class="komentar">
+<h3>Berikan komentar di bawah ini</h3>
+<form>
   <label for="name">Nama:</label><br>
-  <input type="text" name="nama" placeholder="Masukkan nama"><br>
-  <label for="email">Email</label><br>
-  <input type="email" name="email" placeholder="Masukkan email Anda"><br>
+  <input type="text" name="nama" id="name" placeholder="Masukkan nama"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" name="email" id="email" placeholder="Masukkan email Anda"><br>
   <label for="Password">Password:</label><br>
-  <input type="password" name="password" placeholder="Masukkan password"><br><br>
-  <input type="radio" name="gender" value="male">Laki-laki
-  <input type="radio" name="gender" value="female">Perempuan
+  <input type="password" name="password" id="password" placeholder="Masukkan password"><br><br>
+  <label for="gender">Jenis Kelamin</label><br>
+  <input type="radio" name="gender" id="gender" value="male">Laki-laki
+  <input type="radio" name="gender" id="gender" value="female">Perempuan<br><br>
+  <label for="date">Hari/Tanggal:</label><br>
+  <input type="date" name="date" placeholder=""><br>
   <br><br>
+  <label for="comment">Komentar</label><br>
+  <textarea name="comment" rows="4" cols="50" placeholder="Masukkan komentar Anda...."></textarea><br><br>
   <input type="submit" value="Submit">
 </form> 
-
-    <form action="/submit-form" method="GET" style="align: justify">
-        <!-- Input teks untuk nama -->
-        <label for="name">Nama:</label><br>
-        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda"><br><br>
-
-        <!-- Input teks untuk email -->
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="Masukkan email Anda"><br><br>
-
-        <!-- Input password -->
-        <label for="password">Kata Sandi:</label><br>
-        <input type="password" id="password" name="password" placeholder="Masukkan kata sandi"><br><br>
-
-        <!-- Radio button untuk jenis kelamin -->
-        <label>Jenis Kelamin:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Pria</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Wanita</label><br><br>
-
-        <!-- Checkbox untuk persetujuan -->
-        <input type="checkbox" id="terms" name="terms">
-        <label for="terms">Saya setuju dengan syarat dan ketentuan</label><br><br>
-
-        <!-- Dropdown (Select Box) untuk negara -->
-        <label for="country">Pilih Negara:</label><br>
-        <select id="country" name="country">
-            <option value="id">Indonesia</option>
-            <option value="my">Malaysia</option>
-            <option value="sg">Singapura</option>
-        </select><br><br>
-
-        <!-- Textarea untuk komentar -->
-        <label for="comment">Komentar:</label><br>
-        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Masukkan komentar Anda..."></textarea><br><br>
-
-        <!-- Tombol submit -->
-        <input type="submit" value="Daftar">
-    </form>
-
-
-
-
-
-
-<br>
+</div><br><br>
+<div class="komentar" align="center">
+<h3 class="h3">Mukbang Lawson</h3>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/ckHeAzR89cI?si=hRzievHBdFaAfJmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/DEI3CBlwDac?si=_2bpBbhg3dmk6Ss9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="komentar" align="center">
+<h3 class="h3">Lokasi</h3>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.901290190474!2d106.74340647481667!3d-6.276707393712109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f19d311ee837%3A0x43763e99252a6253!2sLawson%20-%20Pondok%20Ranji!5e0!3m2!1sen!2sid!4v1729305123306!5m2!1sen!2sid" width="900" height="500" style="border:1; margin-left: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<br><br>
 <footer>
-	<p align="center">Lawson Indonesia since.2011</p>
+<p> &copy; Kelompok2</p>
 </footer>
-
-
 </body>
 </html>
