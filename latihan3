@@ -69,7 +69,6 @@ td {
 	margin-right: 100px;
 	font-family: sans-serif;
 	font-size: 15px;
-
 }
 
 .makanan {
@@ -107,9 +106,19 @@ td {
 	margin-right: 100px;
 }
 
+.mukbang {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+
 .lokasi {
-	margin-left: 100px;
-	margin-right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
 footer {
@@ -359,13 +368,13 @@ Jakarta Utara:
   <input type="submit" value="Submit">
 </form> 
 </div><br><br>
-<div class="komentar" align="center">
-<h3 class="h3">Mukbang Lawson</h3>
+<div class="Mukbang" align="center">
+<h3 class="h3" style="margin-left: 50px; margin-right:50px">Mukbang Lawson</h3>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/ckHeAzR89cI?si=hRzievHBdFaAfJmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/DEI3CBlwDac?si=_2bpBbhg3dmk6Ss9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<div class="komentar" align="center">
-<h3 class="h3">Lokasi</h3>
+<div class="Lokasi" align="center">
+<h3 class="h3" style="margin-left: 50px; margin-right:50px">Lokasi</h3>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.901290190474!2d106.74340647481667!3d-6.276707393712109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f19d311ee837%3A0x43763e99252a6253!2sLawson%20-%20Pondok%20Ranji!5e0!3m2!1sen!2sid!4v1729305123306!5m2!1sen!2sid" width="900" height="500" style="border:1; margin-left: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <br><br>
